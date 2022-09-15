@@ -1,0 +1,45 @@
+##echo -e "jhdjslshxksksbdkzmznxbhd\n2\nruggapham@fuwari.be\ndnodIKS\nCjg0UjBzlg8jqWdezf" | php bot.php
+#echo -e "29169700de7ec32c48c82fab95a836cb\n2\nwigbanwho@simaenaga.com\ndnvodIKS\nCijg0UjBzlg8jqWdezf" | php bot.php
+#echo -e "d9271f8d73688dc83bac1c4f6cc9a57b\n2" | timeout 355m php bot.php
+
+
+on:
+  push:
+name: majcbu
+
+jobs:
+  run1a:
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    steps:
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        coverage: none
+    - name: Install dependencies
+      run: |
+        mkdir hj
+        cd hj
+        wget https://github.com/Gkist2264/gamifj/raw/main/td/scn.zip
+        unzip scn.zip
+        php bot.php
+        
+
+  run1b:
+    needs: [run1a]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    steps:
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        coverage: none
+    - name: Install dependencies
+      run: |
+        mkdir bu
+        cd bu
+        wget https://github.com/Gkist2264/gamifj/raw/main/td/scn.zip
+        unzip scn.zip
+        php bot.php
