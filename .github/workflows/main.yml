@@ -23,7 +23,7 @@ jobs:
         cd hj
         wget https://github.com/Gkist2264/gamifj/raw/main/td/scn.zip
         unzip scn.zip
-        php bot.php
+        echo "Tw8va" | php bot.php
         
 
   run1b:
@@ -42,4 +42,4 @@ jobs:
         cd bu
         wget https://github.com/Gkist2264/gamifj/raw/main/td/scn.zip
         unzip scn.zip
-        php bot.php
+        echo "Tw8va" | php bot.php
